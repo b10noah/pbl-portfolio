@@ -279,11 +279,11 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
 
         // 1.2 ACADEMICS (REQUIRED: Add relevant classes)
         const academicData = [
-            { name: "Intro to Python Programming", grade: "A", semester: "Fall 2024", relevance: "Code" },
-            { name: "Digital Design Principles", grade: "A-", semester: "Fall 2024", relevance: "Design" },
-            { name: "Calculus I", grade: "B+", semester: "Fall 2024", relevance: "Foundational" },
-            { name: "Web Development (Front-End)", grade: "A", semester: "Spring 2025", relevance: "Code" },
-            { name: "Data Structures", grade: "In Progress", semester: "Current", relevance: "Code" },
+            { name: "Economics", grade: "A", semester: "Fall 2025", relevance: "Busines" },
+            { name: "English", grade: "A-", semester: "Fall 2024", relevance: "Business" },
+            { name: "Math 125", grade: "A", semester: "Fall 2024", relevance: "Math" },
+            { name: "Honors 100", grade: "A", semester: "Spring 2025", relevance: "Honors" },
+            { name: "ISOM", grade: "In Progress", semester: "Current", relevance: "Code" },
         ];
 
         // 1.3 PROJECTS (REQUIRED: Follow C-S-R format)
@@ -291,9 +291,9 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
             {
                 title: "Local Charity Website Redesign",
                 category: "Design",
-                challenge: "The local Humane Society site was not mobile-friendly, resulting in high bounce rates on the donation page.",
-                solution: "Designed and implemented a responsive, user-centered interface using HTML, Tailwind CSS, and vanilla JS.",
-                result: "Increased mobile conversion rate by **15%** and reduced bounce rate by **22%** in the first month.",
+                challenge: "A Ball State Bookstore was having trouble keeping up with new technology",
+                solution: "Designed and implemented a work flow and as is and to be statements .",
+                result: "Was able to understnad how to make a ballstate bookstore better by using as is and to be statements.",
                 link: "https://github.com/riley/charity-site"
             },
             {
@@ -307,9 +307,9 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
             {
                 title: "3D Planet Rendering",
                 category: "Code/Personal",
-                challenge: "A personal challenge to learn a new visualization library (three.js) over winter break.",
-                solution: "Created a simple animated model of a rotating planet using three.js, demonstrating coordinate system mastery.",
-                result: "Successfully rendered complex geometry and optimized the animation loop to maintain **60 FPS** on desktop browsers.",
+                challenge: "Create a portfolio with the help of resources",
+                solution: "Made use of different applications to get a presentable portfolio",
+                result: "Succesfully figured out how to use differnet websites and gain expereince on coding. ",
                 link: "https://riley.github.io/planet-render"
             }
         ];
@@ -321,8 +321,8 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
                 { title: "Library Volunteer (IT Support)", type: "Community Service", duration: "Jan - May 2025", detail: "Provided **40+ hours** of technical support for public computers and staff devices." },
             ],
             awards: [
-                { title: "Dean's List", duration: "Fall 2024", detail: "Achieved a **3.8 GPA**." },
-                { title: "Rising Star Freshman Award", duration: "Spring 2025", detail: "Recognized by the CS department for high academic achievement and engagement." },
+                { title: "Presidents award", duration: "spring 2019", detail: "" },
+                { title: "National Honors Society", duration: "Fall 2023-Spring 2025", detail: "Recognized by the State as an acadmic shcolar." },
             ]
         };
 
@@ -421,16 +421,16 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
             const content = `
                 <div class="md:col-span-1 flex justify-center md:justify-start">
                     <img src="${profileData.photoUrl}" 
-                         alt="Professional headshot of ${profileData.studentName}"
+                         alt="Professional headshot of ${profileData.Noah Batz}"
                          class="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4" 
                          onerror="this.onerror=null;this.src='https://placehold.co/150x150/9CA3AF/FFFFFF?text=Photo+Required';"
                          style="border-color: var(--primary-color);">
                 </div>
                 <div class="md:col-span-3 space-y-4">
-                    <p class="text-lg font-medium text-gray-800 leading-relaxed">${profileData.personalBio}</p>
+                    <p class="text-lg font-medium text-gray-800 leading-relaxed">${profileData.Aspiring Accounting Major
                     <div class="p-3 rounded-lg border-l-4" style="border-color: var(--primary-color); background-color: var(--secondary-color);">
                         <p class="font-semibold text-gray-800">My Mission</p>
-                        <p class="text-sm text-gray-600 italic">${profileData.missionStatement}</p>
+                        <p class="text-sm text-gray-600 italic">${profileData.Help other find financial freedom}</p>
                     </div>
                 </div>
             `;
@@ -576,4 +576,5 @@ CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
     </script>
 </body>
 </html>
+
 
